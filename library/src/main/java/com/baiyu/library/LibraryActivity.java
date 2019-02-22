@@ -18,9 +18,9 @@ public class LibraryActivity extends AppCompatActivity {
         findViewById(R.id.btn_crash_lib).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                String test = null;
-//                System.out.println(test.length());
-                Toast.makeText(LibraryActivity.this, "Biu 特否", Toast.LENGTH_SHORT).show();
+                String test = null;
+                System.out.println(test.length());
+//                Toast.makeText(LibraryActivity.this, "Biu 特否", Toast.LENGTH_SHORT).show();
             }
         });
     }
